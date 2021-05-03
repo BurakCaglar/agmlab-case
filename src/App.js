@@ -1,11 +1,11 @@
-import "./App.css";
-import Cities from "./components/City/Cities";
+import "./App.scss";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div>
-      <Cities />
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 }
 
