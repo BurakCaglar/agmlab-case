@@ -42,6 +42,21 @@ th {
   max-width: 1440px;
 }
 
+.animate {
+  animation: fadeIn 2.5s both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    display: none;
+  }
+  to {
+    opacity: 1;
+    display: block;
+  }
+}
+
 /* MAP SECTION */
 
 .map {
@@ -94,20 +109,5 @@ th {
   row-gap: 40px;
   @media screen and (max-width: 700px) {
     margin-bottom: 50px;
-  }
-}
-
-.animate {
-  animation: fadeIn 2.5s both;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    display: none;
-  }
-  to {
-    opacity: 1;
-    display: block;
   }
 }
